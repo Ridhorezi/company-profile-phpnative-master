@@ -8,4 +8,3 @@ http://localhost/web_tugas/website-company-new/ ini url untuk halaman user/front
 http://localhost/web_tugas/website-company-new/admin/login.php ini url untuk halaman admin
 
 Username Administrator dan Password 12345678 <- ini untuk login di halaman admin
-Username ridhorezi1212@gmail.com Password 12345678 <- ini untuk login di halaman user/front-end
