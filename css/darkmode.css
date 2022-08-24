@@ -1,0 +1,30 @@
+:root{
+    --bg-color: rgb(43, 42, 51);
+    --font-color: #fbfbfe;
+}
+
+[mode-dark="dark"] body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+[mode-dark="dark"] nav {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+[mode-dark="dark"] nav li a {
+    /* background-color: var(--bg-color); */
+    color: var(--font-color);
+}
+
+[mode-dark="dark"] .sosial a {
+    /* background-color: var(--bg-color); */
+    color: var(--font-color);
+}
+
+[mode-dark="dark"] .white-dark {
+    /* background-color: var(--bg-color); */
+    color: var(--font-color);
+}
+
