@@ -40,7 +40,6 @@ CREATE TABLE `admin` (
 INSERT INTO `admin` (`id`, `username`, `password`) VALUES
 (1, 'Administrator', '25d55ad283aa400af464c76d713c07ad'),
 (2, 'Ridho Suhaebi Arrowi', '25d55ad283aa400af464c76d713c07ad'),
-(3, 'vickry', '25d55ad283aa400af464c76d713c07ad'),
 (4, 'bagas', '25d55ad283aa400af464c76d713c07ad');
 
 -- --------------------------------------------------------
@@ -111,9 +110,7 @@ CREATE TABLE `members` (
 --
 
 INSERT INTO `members` (`id`, `email`, `nama_lengkap`, `password`, `status`, `token_ganti_password`, `tgl_isi`) VALUES
-(3, 'ridhorezi1212@gmail.com', 'Ridho Suhaebi Arrowi', '25d55ad283aa400af464c76d713c07ad', '1', 'd1f491a404d6854880943e5c3cd9ca25', '2022-03-28 08:50:28'),
 (5, 'resa@mail.com', 'resa ', '25d55ad283aa400af464c76d713c07ad', 'aff1621254f7c1be92f64550478c56e6', NULL, '2022-04-09 12:34:03'),
-(6, 'vickry@gmail.com', 'Vickry Aries Budiman', '25d55ad283aa400af464c76d713c07ad', '1', NULL, '2022-04-15 14:05:21'),
 (16, 'usergbvr@gmail.com', 'usergbvr', '25d55ad283aa400af464c76d713c07ad', '15d4e891d784977cacbfcbb00c48f133', NULL, '2022-06-08 09:49:36');
 
 -- --------------------------------------------------------
