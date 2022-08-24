@@ -154,7 +154,7 @@ use PHPMailer\PHPMailer\Exception;
 function kirim_email($email_penerima, $nama_penerima, $judul_email, $isi_email)
 {
 
-    $email_pengirim     = "ridhorezi1212@gmail.com";
+    $email_pengirim     = "emailmu@gmail.com";
     $nama_pengirim      = "Administrator";
 
     //Load Composer's autoloader
@@ -172,7 +172,7 @@ function kirim_email($email_penerima, $nama_penerima, $judul_email, $isi_email)
         $mail->Host       = 'smtp.gmail.com';                   //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                               //Enable SMTP authentication
         $mail->Username   = $email_pengirim;                    //SMTP username
-        $mail->Password   = 'serang123';                        //SMTP password
+        $mail->Password   = 'password mu';                      //SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;     //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
         $mail->Port       = 587;                                //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
