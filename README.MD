@@ -3,7 +3,6 @@ langkah pertama yang perlu di lakukan adalah buat folder web_tugas pada folder x
 lalu import file companyprofile.sql yang ada pada project ini
 setelah itu bisa running program sesuai perintah di bawah ini ...
 
-Browser gunakan mozila, jika chrome banyak extension yang tidak terbaca
 http://localhost/web_tugas/website-company-new/ ini url untuk halaman user/front-end
 http://localhost/web_tugas/website-company-new/admin/login.php ini url untuk halaman admin
 
